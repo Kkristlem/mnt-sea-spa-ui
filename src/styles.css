@@ -1,0 +1,6 @@
+.app { max-width: 720px; margin: 0 auto; padding: 16px; font-family: sans-serif; }
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; }
+.product-card { border: 1px solid #ddd; border-radius: 8px; padding: 8px; }
+@media (max-width: 480px) {
+  .cards-grid { grid-template-columns: 1fr 1fr; }
+}
